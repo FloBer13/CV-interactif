@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+	<title>CV BERGA</title>
+</head>
+<body>
+	<main>
+		<div class="icons_bureau">
+			<div class="icon-item">
+				<img src="img/img-dossier.png" alt="Icône dossier" class="icone1" id="icone-dossier">
+					<div class="icon-label1">Présentation</div>
+				<img src="img/img-dossier.png" alt="Icône dossier" class="icone2" id="icone-dossier">
+      				<div class="icon-label2">Parcours</div>
+				<img src="img/img-loisir.png" alt="Icône dossier" class="iconeL" id="icone-dossier">
+      				<div class="icon-Loisir">Loisirs</div>
+      </div>
+		</div>
+			<div class="icon-item2">
+		<img src="img/img-bin.png" alt="Icône dossier" class="icone3" id="icone-dossier">
+    <div class="icon-label3">Contact</div>
+    </div>    
+	</main>
+
+		<!-- Fenêtre Windows in-page (ouvre sur la page principale) -->
+		<div id="winOverlay" class="window-overlay" aria-hidden="true">
+		  <div class="window-box" role="dialog" aria-modal="true" aria-labelledby="winTitle">
+					<div class="window-titlebar">
+					<span id="winTitle">Mon Parcours</span>
+					<div class="window-controls">
+						<button class="window-close" aria-label="Fermer">×</button>
+					</div>
+				</div>
+						<div class="window-content">
+							<h2>2019</h2>
+								<p><strong>Baccalauréat STI2D :</strong> Ecole Modèle d'Electronique, Marseille, mention Bien.</p>
+							<h2>2019-2021</h2>
+								<p><strong>DUT Réseaux et Télécommunications :</strong> Institut Universitaire de Technologie d’Aix-Marseille Université.</p>
+							<h2>2021-2022</h2>
+								<p><strong>Licence Professionnelle Administration et Sécurité des Systèmes et des Réseaux :</strong> Institut Universitaire de Technologie d’Aix-Marseille Université.</p>
+							<h2>2022-2025</h2>
+								<p><strong> Ecole d'ingénieurs :</strong> CESI Toulouse</p>														
+						</div>
+		  </div>
+		</div>
+
+		<!-- Modal popup (utilise la même fenêtre Windows que winOverlay) -->
+		<div id="modalOverlay" class="window-overlay" aria-hidden="true">
+		  <div class="window-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+		    <div class="window-titlebar">
+		      <span id="winTitle">Présentation</span>
+		      <div class="window-controls">
+		        <button class="window-close" aria-label="Fermer">×</button>
+		      </div>
+		    </div>
+						<div class="window-content">
+              <img src="img/pp.jpg" class="icone4">
+							<p><strong>Nom : </strong> BERGA</p>
+							<p><strong>Prénom : </strong> Florian</p>
+              				<p><strong>Age : </strong> 24 ans</p>
+              				<p><strong>Adresse : </strong> 651 chemin de St Jean, 13190 ALLAUCH</p>
+							<p><strong>Permis : </strong> Permis B</p>
+						</div>
+		  </div>
+		</div>
+
+		<!-- Modal popup (utilise la même fenêtre Windows que winOverlay) -->
+		<div id="modalOverlay2" class="window-overlay" aria-hidden="true">
+		  <div class="window-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+		    <div class="window-titlebar">
+		      <span id="winTitle">Contact</span>
+		      <div class="window-controls">
+		        <button class="window-close" aria-label="Fermer">×</button>
+		      </div>
+		    </div>
+						<div class="window-content">
+							<p><i class="fa-solid fa-envelope"></i><strong> Mail : </strong> florian.berga13@gmail.com</p>
+			  				<p><i class="fa-solid fa-mobile-alt"></i><strong> Téléphone : </strong>+33(0)6.95.44.73.98</p>
+			  				<p><i class="fa-brands fa-linkedin"></i><strong> LinkedIn : </strong> <a href="https://fr.linkedin.com/in/florian-berga-98b36a1b0" target="_blank">Florian BERGA</a></p>
+							<p><i class="fa-brands fa-github"></i><strong> Github : </strong> <a href="https://github.com/FloBer13/" target="_blank">FloBer13</a></p>
+						</div>
+		  </div>
+		</div>
+
+		<!-- Script JS -->
+	<script src="script.js"></script>
+
+	</body>
+	</html>
